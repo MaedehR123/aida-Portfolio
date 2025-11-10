@@ -1,53 +1,64 @@
 <!DOCTYPE html>
 <html lang="fa">
+  <head>
+    <!-- تعیین نوع سند HTML -->
+    <meta charset="utf-8" />
+    <!-- آیکون سایت که در تب مرورگر نمایش داده می‌شود -->
+    <link rel="icon" href="favicon.png" />
+    <!-- تنظیمات واکنش‌گرایی برای نمایش صحیح در دستگاه‌های مختلف -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- رنگ تم مرورگر (در موبایل‌ها معمولاً در نوار بالای مرورگر نمایش داده می‌شود) -->
+    <meta name="theme-color" content="#000000" />
+    <!--  سئو توضیح کلی درباره وب‌سایت برای موتورهای جستجو -->
+    <meta name="description"content="آیدا رضائی — بهترین توسعه‌دهنده وب و طراح UI/UX. طراحی و ساخت سایت‌های مدرن، واکنش‌گرا و بهینه برای کسب‌وکارها و برندهای شخصی، با امکان ساخت سریع و هزینه مناسب."/>
+    <!-- فایل manifest برای مشخصات PWA (وب اپلیکیشن پیشرو) -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- عنوان صفحه که در تب مرورگر نمایش داده می‌شود -->
+    <title>آیدا رضائی | توسعه‌دهنده وب، طراح UI/UX و مدیر پروژه</title>
+    <!-- تنظیمات متادیتا برای گوگل / موتورهای جستجو -->
+    <!-- نام سایت یا برند -->
+    <meta itemprop="name" content="آیدا رضائی | توسعه‌دهنده وب و طراح UI/UX" />
+    <!-- توضیح کوتاه درباره سایت و خدمات -->
+    <metaitemprop="description" content="آیدا رضائی — بهترین توسعه‌دهنده وب و طراح UI/UX. طراحی سایت‌های واکنش‌گرا، بهینه و حرفه‌ای برای کسب‌وکارها و برندهای شخصی، با امکان ساخت سریع و هزینه مناسب."/>
 
-<head>
-  <!-- تعیین نوع سند HTML -->
-  <meta charset="utf-8" />
-  <!-- آیکون سایت که در تب مرورگر نمایش داده می‌شود -->
-  <link rel="icon" href="favicon.png" />
-  <!-- تنظیمات واکنش‌گرایی برای نمایش صحیح در دستگاه‌های مختلف -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- رنگ تم مرورگر (در موبایل‌ها معمولاً در نوار بالای مرورگر نمایش داده می‌شود) -->
-  <meta name="theme-color" content="#000000" />
-  <!--  سئو توضیح کلی درباره وب‌سایت برای موتورهای جستجو -->
- <meta name="description" content="آیدا رضائی — بهترین توسعه‌دهنده وب و طراح UI/UX. طراحی و ساخت سایت‌های مدرن، واکنش‌گرا و بهینه برای کسب‌وکارها و برندهای شخصی، با امکان ساخت سریع و هزینه مناسب." />
-  <!-- فایل manifest برای مشخصات PWA (وب اپلیکیشن پیشرو) -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!-- عنوان صفحه که در تب مرورگر نمایش داده می‌شود -->
-  <title>آیدا رضائی | توسعه‌دهنده وب، طراح UI/UX و مدیر پروژه</title>
-  
+    <!-- تصویر پیش‌نمایش هنگام اشتراک‌گذاری در گوگل یا سایر پلتفرم‌ها -->
+    <meta
+      itemprop="image"
+      content="https://raw.githubusercontent.com/soumyajit4419/Portfolio/master/Images/readme-img.png?token=AK7VCIF5RYEUZZAURELPTAC76U6AK"
+    />
 
-  <!-- تنظیمات متادیتا برای گوگل / موتورهای جستجو -->
-  <meta itemprop="name" content="S0umyajit | Portfolio">
-  <meta itemprop="description" content="Self Developed personal website build with React.js">
-  <!-- تصویر پیش‌نمایش هنگام اشتراک‌گذاری در گوگل یا سایر پلتفرم‌ها -->
-  <meta itemprop="image"
-    content="https://raw.githubusercontent.com/soumyajit4419/Portfolio/master/Images/readme-img.png?token=AK7VCIF5RYEUZZAURELPTAC76U6AK">
+    <!-- تنظیمات متادیتا برای فیسبوک (Open Graph) -->
+    <meta property="og:url" content="https://soumyajit.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="S0umyajit | Portfolio" />
+    <meta
+      property="og:description"
+      content="Self Developed personal website build with React.js"
+    />
+    <!-- تصویر پیش‌نمایش برای فیسبوک -->
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/soumyajit4419/Portfolio/master/Images/readme-img.png?token=AK7VCIF5RYEUZZAURELPTAC76U6AK"
+    />
 
-  <!-- تنظیمات متادیتا برای فیسبوک (Open Graph) -->
-  <meta property="og:url" content="https://soumyajit.vercel.app">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="S0umyajit | Portfolio">
-  <meta property="og:description" content="Self Developed personal website build with React.js">
-  <!-- تصویر پیش‌نمایش برای فیسبوک -->
-  <meta property="og:image"
-    content="https://raw.githubusercontent.com/soumyajit4419/Portfolio/master/Images/readme-img.png?token=AK7VCIF5RYEUZZAURELPTAC76U6AK">
+    <!-- تنظیمات متادیتا برای توییتر -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="S0umyajit | Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Self Developed personal website build with React.js"
+    />
+    <!-- تصویر پیش‌نمایش برای اشتراک در توییتر -->
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/soumyajit4419/Portfolio/master/Images/readme-img.png?token=AK7VCIF5RYEUZZAURELPTAC76U6AK"
+    />
+  </head>
 
-  <!-- تنظیمات متادیتا برای توییتر -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="S0umyajit | Portfolio">
-  <meta name="twitter:description" content="Self Developed personal website build with React.js">
-  <!-- تصویر پیش‌نمایش برای اشتراک در توییتر -->
-  <meta name="twitter:image"
-    content="https://raw.githubusercontent.com/soumyajit4419/Portfolio/master/Images/readme-img.png?token=AK7VCIF5RYEUZZAURELPTAC76U6AK">
-</head>
-
-<body>
-  <!-- پیغام برای زمانی که جاوااسکریپت در مرورگر کاربر غیرفعال است -->
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <!-- المنت ریشه‌ای که برنامه React در آن رندر می‌شود -->
-  <div id="root"></div>
-</body>
-
+  <body>
+    <!-- پیغام برای زمانی که جاوااسکریپت در مرورگر کاربر غیرفعال است -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- المنت ریشه‌ای که برنامه React در آن رندر می‌شود -->
+    <div id="root"></div>
+  </body>
 </html>
