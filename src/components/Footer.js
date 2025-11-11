@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineGlobal,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -14,16 +14,17 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>ساخته شده توسط آیدا رضائی</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3> سفارش سایت حرفه‌ای و سریع خود را ثبت کنید</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+            {/* github */}
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/MaedehR123"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -31,19 +32,21 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
+            {/* instagram */}
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://www.instagram.com/siteup_web"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <AiFillInstagram />
               </a>
             </li>
+            {/* linkdin */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/MaedehR123/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -51,14 +54,26 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
+            {/* telegram */}
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://t.me/siteup_web"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <FaTelegramPlane />
+              </a>
+            </li>
+            {/* site */}
+               <li className="social-icons">
+              <a
+                href="https://my-portfolio-aida-rezaei.vercel.app"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineGlobal />
               </a>
             </li>
           </ul>

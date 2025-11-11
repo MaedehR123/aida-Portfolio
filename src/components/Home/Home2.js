@@ -2,14 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { FaTelegramPlane } from "react-icons/fa";
+
 
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineGlobal,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -104,7 +105,18 @@ function Home2() {
                  <FaTelegramPlane /> 
                </a>
              </li>
-
+             {/* site */}
+             <li className="social-icons">
+               <a
+                 href="https://my-portfolio-aida-rezaei.vercel.app"
+                 target="_blank"
+                 rel="noreferrer"
+                 className="icon-colour home-social-icons"
+               >
+                 <AiOutlineGlobal />
+               </a>
+             </li>
+             
             </ul>
           </Col>
         </Row>
