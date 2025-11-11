@@ -35,18 +35,18 @@ function Home() {
               </h1>
 
               {/* تایپ متحرک یا توضیحات اضافی */}
-              <div style={{ padding: 50, textAlign: "center" }}>
+              <div style={{ padding: 40, textAlign: "center" }}>
                 <Type />
               </div>
             </Col>
 
             {/* ستون تصویر سمت چپ */}
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 20,    paddingTop: 30}}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "400px" }}
               />
             </Col>
           </Row>
