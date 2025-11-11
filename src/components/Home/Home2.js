@@ -13,56 +13,49 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
-          </Col>
-          <Col md={4} className="myAvtar">
+        <Row className="align-items-center">
+          {/* تصویر سمت چپ */}
+          <Col md={4} className="myAvtar text-center">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{ maxHeight: "300px", width: "auto" }} // تصویر کوچکتر
+              />
             </Tilt>
           </Col>
+
+          {/* متن سمت راست */}
+          <Col md={8} className="home-about-description" dir="rtl">
+            <h1 style={{ fontSize: "2.6em" }}>
+              بذار <span className="purple">خودمو معرفی </span> کنم
+            </h1>
+         <p className="home-about-body" style={{ direction: "rtl", textAlign: "right" }}>
+            من توسعه‌دهنده فرانت‌اند و متخصص طراحی وب هستم، با مهارت بالا در <b>React</b> و <b>JavaScript</b>. عاشق خلق سایت‌ها و اپلیکیشن‌هایی هستم که هم سریع، کارآمد و با کیفیت بالا باشن، هم طراحی مدرن و تجربه کاربری (UX) بی‌نظیر داشته باشن.
+            <br />
+            <br />
+            توی طراحی و مدیریت وب‌سایت حرفه‌ای عمل می‌کنم و پروژه‌ها را با <b>سرعت بالا، کیفیت عالی و استانداردهای مدرن وب</b> تحویل می‌دم.
+            <br />
+            <br />
+            علاقه‌مندم رابط‌های کاربری (<b>UI</b>) جذاب بسازم تا کاربران واقعاً از سایت شما لذت ببرن و تجربه کاربری فراموش‌نشدنی داشته باشن.
+            <br />
+            <br />
+            اگر دنبال یک <b>توسعه‌دهنده مستقل</b> هستی که پروژه وب‌سایتت رو سریع، شیک و حرفه‌ای آماده کنه، من آماده‌م <b>همین حالا</b> روی پروژه شما کار کنم و بهترین نتیجه را ارائه بدم.
+            <br />
+            <br />
+            <b>همین امروز</b> با من تماس بگیر و پروژه خودت را به یک سایت مدرن و کارآمد تبدیل کن.
+         </p>
+
+          </Col>
         </Row>
+
+        {/* بخش شبکه‌های اجتماعی */}
         <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+          <Col md={12} className="home-about-social text-center" dir="rtl">
+            <h1>منو پیدا کن</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              راحت باش و باهام <span className="purple">ارتباط </span> بگیر
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
