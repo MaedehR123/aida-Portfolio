@@ -59,12 +59,12 @@ function Home2() {
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a
-                  href="https://github.com/soumyajit4419"
+               <a
+                  href="https://github.com/MaedehR123"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                >
+                  >
                   <AiFillGithub />
                 </a>
               </li>
