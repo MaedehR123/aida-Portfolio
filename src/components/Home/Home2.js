@@ -52,10 +52,10 @@ function Home2() {
 
         {/* بخش شبکه‌های اجتماعی */}
         <Row>
-          <Col md={12} className="home-about-social text-center" dir="rtl">
+          <Col md={12} className="home-about-social text-center">
             <h1>منو پیدا کن</h1>
             <p>
-              راحت باش و باهام <span className="purple">ارتباط </span> بگیر
+              در<span className="purple">ارتباط </span> باش
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

@@ -6,10 +6,14 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Software Developer",
-          "Freelancer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
+          "ساخت سایت‌های حرفه‌ای",
+          "UI Design طراحی رابط کاربری",
+          "UX Design طراحی تجربه کاربری",
+          "پروژه سریع و با کیفیت بالا",
+          "طراحی مدرن و شیک",
+          "مدیریت و بهینه‌سازی وب‌سایت",
+          "قابلیت ریسپانسیو و موبایل فرندلی",
+          " React و JavaScript  توسعه فرانت‌اند با",
         ],
         autoStart: true,
         loop: true,
