@@ -58,6 +58,7 @@ function Home2() {
               در<span className="purple"> ارتباط </span> باش
             </p>
             <ul className="home-about-social-links">
+              {/* github */}
               <li className="social-icons">
                <a
                   href="https://github.com/MaedehR123"
@@ -68,19 +69,21 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* instagram */}
+             <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.instagram.com/siteup_web"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiFillInstagram />
                 </a>
-              </li>
+                </li>
+              {/* linkdin */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/....../"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
