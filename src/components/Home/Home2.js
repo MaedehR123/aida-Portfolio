@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { FaTelegramPlane } from "react-icons/fa";
+
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -91,16 +93,18 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              {/* telegram */}
+             <li className="social-icons">
+               <a
+                 href="https://t.me/siteup_web"
+                 target="_blank"
+                 rel="noreferrer"
+                 className="icon-colour home-social-icons"
+               >
+                 <FaTelegramPlane /> 
+               </a>
+             </li>
+
             </ul>
           </Col>
         </Row>
