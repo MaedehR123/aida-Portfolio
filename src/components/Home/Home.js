@@ -35,7 +35,7 @@ function Home() {
               </h1>
 
               {/* تایپ متحرک یا توضیحات اضافی */}
-              <div style={{ padding: 40, textAlign: "center" }}>
+              <div style={{ paddingLeft: 90,paddingBlock:50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
