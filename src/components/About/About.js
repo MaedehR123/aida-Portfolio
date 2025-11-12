@@ -39,7 +39,7 @@ function About() {
           {/* ستون سمت چپ شامل تصویر لپ‌تاپ */}
           <Col
             md={5}
-            style={{ paddingTop: "10px", paddingBottom: "50px" }}
+            style={{ paddingTop: "15px", paddingBottom: "50px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
