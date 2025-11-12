@@ -1,44 +1,65 @@
+// 📦 ایمپورت کامپوننت‌های لازم از کتابخانه‌ها
 import React from "react";
-import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import Card from "react-bootstrap/Card"; // برای نمایش کارت اطلاعات
+import { ImPointRight } from "react-icons/im"; // برای نمایش آیکن اشاره‌گر کنار آیتم‌ها
 
+// 💬 کامپوننت AboutCard اطلاعات شخصی و علایق فرد را در قالب کارت نمایش می‌دهد
 function AboutCard() {
   return (
+    // 🟣 کارت اصلی که شامل توضیحات و نقل‌قول است
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+          {/* 📝 بخش معرفی شخصی */}
+          <p style={{ textAlign: "center" }}>
+            {/* معرفی با نام و محل زندگی */}
+            سلام به همه! من <span className="purple">آیدا رضائی </span>
+            از <span className="purple"> ایران </span> هستم.
             <br />
-            I am currently employed as a software developer at Juspay.
+            {/* توضیح موقعیت شغلی */}
+            در حال حاضر به‌عنوان توسعه‌دهنده وب و طراح UI/UX فعالیت می‌کنم.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            {/* توضیح درباره تحصیلات یا مسیر یادگیری */}
+            زمینه‌ی تحصیلی و کاری من در طراحی، برنامه‌نویسی و بهینه‌سازی تجربه کاربری است.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            {/* مقدمه‌ای برای معرفی علایق شخصی */}
+            : علاوه‌بر کدنویسی، به کارهای دیگه‌ای هم علاقه دارم مثل
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
 
+          {/* 🎯 لیست فعالیت‌ها یا علایق شخصی */}
+            <ul style={{ listStyle: "none", padding: 0 }}>
+              <li style={{ display: "flex", justifyContent: "center", alignItems: "center", margin: "10px 0" }}>
+                 طراحی رابط کاربری خلاقانه  <ImPointRight style={{ marginRight: "8px", transform: "rotate(180deg)", marginLeft: "10px" }} />
+              </li>
+              <li style={{ display: "flex", justifyContent: "center", alignItems: "center", margin: "10px 0 " }}>
+                 تولید محتوای آموزشی در حوزه وب   <ImPointRight style={{ marginRight: "8px", transform: "rotate(180deg)"  , marginLeft: "10px" }} />
+              </li>
+              <li style={{ display: "flex", justifyContent: "center", alignItems: "center", margin: "5px 0" }}>
+                یادگیری و الهام از طراحی‌های جدید   <ImPointRight style={{ marginRight: "8px", transform: "rotate(180deg)"  , marginLeft: "10px"}} /> 
+              </li>
+              <li style={{ display: "flex", justifyContent: "center", alignItems: "center", margin: "5px 0" }}>
+                مدیریت وب سایت  <ImPointRight style={{ marginRight: "8px", transform: "rotate(180deg)"  , marginLeft: "10px"}} /> 
+              </li>
+              <li style={{ display: "flex", justifyContent: "center", alignItems: "center", margin: "5px 0" }}>
+                 اموزش و مدرس توسعه دهنده وب  <ImPointRight style={{ marginRight: "8px", transform: "rotate(180deg)"  , marginLeft: "10px"}} /> 
+              </li>
+            </ul>
+            
+
+
+          {/* 💬 جمله الهام‌بخش پایانی */}
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "همیشه در تلاش باش چیزی بسازی که تأثیرگذار باشه!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+
+          {/* ✍️ امضای پایانی زیر نقل‌قول */}
+          <footer className="blockquote-footer">آیدا رضائی</footer>
         </blockquote>
       </Card.Body>
     </Card>
   );
 }
 
+// 🚀 خروجی گرفتن از کامپوننت برای استفاده در سایر بخش‌ها
 export default AboutCard;
