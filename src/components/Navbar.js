@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import Container from "react-bootstrap/Container"; 
+import logo from "../Assets/logo.png";    
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+// import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
+  // AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -53,22 +53,23 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
+            {/* خانه */}
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> خانه
               </Nav.Link>
             </Nav.Item>
-
+            {/* درباره ما */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> درباره ما
               </Nav.Link>
             </Nav.Item>
-
+          {/* پروژه */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -76,33 +77,31 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                  style={{ marginBottom: "2px" }} />{" "} پروژ ها
               </Nav.Link>
             </Nav.Item>
-
+          {/* رزومه */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} /> رزومه
               </Nav.Link>
             </Nav.Item>
-
+          {/* بلاگ */}
             <Nav.Item>
               <Nav.Link
                 href="https://soumyajitblogs.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> بلاگ
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/soumyajit4419/Portfolio"
                 target="_blank"
@@ -111,7 +110,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
