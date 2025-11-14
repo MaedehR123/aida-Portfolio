@@ -3,11 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import sign from "../../Assets/Projects/sign_up_2.webp";
-import emotion from "../../Assets/Projects/emotion.png";
+import slider from "../../Assets/Projects/accordion slider.webp";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -34,11 +33,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={slider}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="تجربه‌ای متفاوت از زیبایی و حرفه‌ای‌گری در هر اسلاید"
+              description="رابط کاربری روان، انتقال نرم بین اسلایدها و هماهنگی رنگ‌ها و انیمیشن‌ها، حس یک محصول حرفه‌ای و با کیفیت را القا می‌کند."
+              demoLink="https://accordion-slider-rosy.vercel.app/"
             />
           </Col>
 
@@ -74,7 +73,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={sign}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
