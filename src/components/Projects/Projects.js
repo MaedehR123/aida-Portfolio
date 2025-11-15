@@ -17,7 +17,7 @@ function Projects() {
            پروژه‌های <strong className="purple">جدید من</strong>
          </h1>
          <p style={{ color: "white" }}>
-           در این بخش می‌توانید تعدادی از جدیدترین پروژه‌هایی که روی آن‌ها کار کرده‌ام را ببینید.
+           در این بخش می‌توانید تعدادی از جدیدترین پروژه‌هایی که روی آن‌ها کار کرده‌ام را ببینید
          </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px"}}>
           
