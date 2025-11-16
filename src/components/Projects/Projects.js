@@ -20,7 +20,18 @@ function Projects() {
            در این بخش می‌توانید تعدادی از جدیدترین پروژه‌هایی که روی آن‌ها کار کرده‌ام را ببینید
          </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px"}}>
-          
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={meno}
+              isBlog={false}
+              title="نمونه هاور جذاب و بسیار حرفه ای برای ایتم ها"
+              description="استایل و هاور جذاب برای منو و ایتم های سایتتون و برای قیمت گذاری محصولات تون هم میشه اضافه کرد"
+              demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+
+  
            <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={sign} 
@@ -30,6 +41,7 @@ function Projects() {
                 demoLink="https://sign-up-welcome.vercel.app/"
               />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -41,15 +53,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={meno}
-              isBlog={false}
-              title="نمونه هاور جذاب و بسیار حرفه ای برای ایتم ها"
-              description="استایل و هاور جذاب برای منو و ایتم های سایتتون و برای قیمت گذاری محصولات تون هم میشه اضافه کرد"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
+         
 
           <Col md={4} className="project-card">
             <ProjectCard
