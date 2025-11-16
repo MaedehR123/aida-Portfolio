@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import sign from "../../Assets/Projects/sign_up_2.webp";
 import slider from "../../Assets/Projects/accordion slider.webp";
-import editor from "../../Assets/Projects/codeEditor.png";
+import meno from "../../Assets/Projects/meno.webp";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 
@@ -35,7 +35,7 @@ function Projects() {
             <ProjectCard
               imgPath={slider}
               isBlog={false}
-              title="تجربه‌ای متفاوت از زیبایی و حرفه‌ای‌گری در هر اسلاید"
+              title="تجربه‌ای متفاوت از زیبایی و حرفه‌ای‌ در هر اسلاید"
               description="رابط کاربری روان، انتقال نرم بین اسلایدها و هماهنگی رنگ‌ها و انیمیشن‌ها، حس یک محصول حرفه‌ای و با کیفیت را القا می‌کند"
               demoLink="https://accordion-slider-rosy.vercel.app/"
             />
@@ -43,7 +43,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={meno}
               isBlog={false}
               title="نمونه هاور جذاب و بسیار حرفه ای برای ایتم ها"
               description="استایل و هاور جذاب برای منو و ایتم های سایتتون و برای قیمت گذاری محصولات تون هم میشه اضافه کرد"
