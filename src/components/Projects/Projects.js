@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import sign from "../../Assets/Projects/sign_up_2.webp";
 import slider from "../../Assets/Projects/accordion slider.webp";
+import timerPomodoro from "../../Assets/Projects/timerPomodoro.webp";
 import meno from "../../Assets/Projects/meno.webp";
-import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
@@ -57,7 +57,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={timerPomodoro}
               isBlog={false}
               title="تایمر پومودورو"
               description="تایمر پومودورو روشی مؤثر برای مدیریت زمان است که کار را به بازه‌های ۲۵ دقیقه‌ای با وقفه‌های کوتاه تقسیم می‌کند"
