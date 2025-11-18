@@ -59,7 +59,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Plant AI"
+              title="تایمر پومودورو"
               description="تایمر پومودورو روشی مؤثر برای مدیریت زمان است که کار را به بازه‌های ۲۵ دقیقه‌ای با وقفه‌های کوتاه تقسیم می‌کند"
               demoLink="https://psychology-test-qqhv.vercel.app/"
             />
