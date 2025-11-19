@@ -31,16 +31,17 @@ function Projects() {
             />
           </Col>
 
-  
+
+
            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={sign} 
-                isBlog={false}
-                title="فرم ورود سایت بسیار حرفه ای و متحرک"
-                description = "ثبت‌نام سریع و ایمن با طراحی مدرن و پس‌زمینهٔ متحرک. الهام‌گرفته از اصول UI/UX حرفه‌ای برای تجربه‌ای روان و دل‌نشین"
-                demoLink="https://sign-up-welcome.vercel.app/"
-              />
-          </Col>
+                 <ProjectCard
+                   imgPath={timerPomodoro}
+                   isBlog={false}
+                   title="تایمر پومودورو"
+                   description="تایمر پومودورو روشی مؤثر برای مدیریت زمان است که کار را به بازه‌های ۲۵ دقیقه‌ای با وقفه‌های کوتاه تقسیم می‌کند"
+                   demoLink="https://psychology-test-qqhv.vercel.app/"
+                 />
+           </Col>
 
 
           <Col md={4} className="project-card">
@@ -65,15 +66,16 @@ function Projects() {
 
 
 
-                  <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={timerPomodoro}
-              isBlog={false}
-              title="تایمر پومودورو"
-              description="تایمر پومودورو روشی مؤثر برای مدیریت زمان است که کار را به بازه‌های ۲۵ دقیقه‌ای با وقفه‌های کوتاه تقسیم می‌کند"
-              demoLink="https://psychology-test-qqhv.vercel.app/"
-            />
+           <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={sign} 
+                isBlog={false}
+                title="فرم ورود سایت بسیار حرفه ای و متحرک"
+                description = "ثبت‌نام سریع و ایمن با طراحی مدرن و پس‌زمینهٔ متحرک. الهام‌گرفته از اصول UI/UX حرفه‌ای برای تجربه‌ای روان و دل‌نشین"
+                demoLink="https://sign-up-welcome.vercel.app/"
+              />
           </Col>
+
 
 
 
