@@ -6,7 +6,7 @@ import sign from "../../Assets/Projects/sign_up_2.webp";
 import slider from "../../Assets/Projects/accordion slider.webp";
 import timerPomodoro from "../../Assets/Projects/timerPomodoro.webp";
 import meno from "../../Assets/Projects/meno.webp";
-import suicide from "../../Assets/Projects/suicide.png";
+import BMIBody from "../../Assets/Projects/BMIBody.webp";
 
 function Projects() {
   return (
@@ -55,11 +55,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={BMIBody}
               isBlog={false}
               title="Ai For Social Good"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+              demoLink="https://bmi-calculator-silk-gamma.vercel.app/"
             />
           </Col>
 
