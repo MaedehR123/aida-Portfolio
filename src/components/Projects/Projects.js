@@ -57,8 +57,8 @@ function Projects() {
             <ProjectCard
               imgPath={BMIBody}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="محاسبه شاخص توده بدنی BMI"
+              description="ماشین حساب BMI به شما کمک می‌کند تا شاخص توده بدنی خود را سریع محاسبه و محدوده وزن سالم خود را بشناسید"
               demoLink="https://bmi-calculator-silk-gamma.vercel.app/"
             />
           </Col>
