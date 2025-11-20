@@ -86,7 +86,7 @@ function Projects() {
               isBlog={false}
               title="چک لیست هوشمند سفر"
               description="اپ تحت وب که باعث میشه بدون استرس و نگرانی وسایل خود را برای سفر اماده کنی و چک کنی که وسایل مورد نیاز خود را برداشتید"
-             demoLink="https://blogs.soumya-jit.tech/"      
+             demoLink="https://check-list-lime-pi.vercel.app/"      
             />
           </Col>
         </Row>
