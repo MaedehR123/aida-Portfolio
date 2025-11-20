@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="نمونه هاور جذاب و بسیار حرفه ای برای ایتم ها"
               description="استایل و هاور جذاب برای منو و ایتم های سایتتون و برای قیمت گذاری محصولات تون هم میشه اضافه کرد"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://hover-lac-alpha.vercel.app/"              
             />
           </Col>
 
