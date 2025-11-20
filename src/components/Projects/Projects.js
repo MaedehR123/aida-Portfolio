@@ -7,6 +7,7 @@ import slider from "../../Assets/Projects/accordion slider.webp";
 import timerPomodoro from "../../Assets/Projects/timerPomodoro.webp";
 import meno from "../../Assets/Projects/meno.webp";
 import BMIBody from "../../Assets/Projects/BMIBody.webp";
+import TravelList from "../../Assets/Projects/TravelList.webp";
 
 function Projects() {
   return (
@@ -81,7 +82,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sign}
+              imgPath={TravelList}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
