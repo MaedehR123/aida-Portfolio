@@ -33,16 +33,15 @@ function Projects() {
           </Col>
 
 
-
-           <Col md={4} className="project-card">
-                 <ProjectCard
-                   imgPath={timerPomodoro}
-                   isBlog={false}
-                   title="تایمر پومودورو"
-                   description="تایمر پومودورو روشی مؤثر برای مدیریت زمان است که کار را به بازه‌های ۲۵ دقیقه‌ای با وقفه‌های کوتاه تقسیم می‌کند"
-                   demoLink="https://psychology-test-qqhv.vercel.app/"
-                 />
-           </Col>
+          <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={timerPomodoro}
+                  isBlog={false}
+                  title="تایمر پومودورو"
+                  description="تایمر پومودورو روشی مؤثر برای مدیریت زمان است که کار را به بازه‌های ۲۵ دقیقه‌ای با وقفه‌های کوتاه تقسیم می‌کند"
+                  demoLink="https://psychology-test-qqhv.vercel.app/"
+                />
+          </Col>
 
 
           <Col md={4} className="project-card">
@@ -54,6 +53,7 @@ function Projects() {
               demoLink="https://accordion-slider-rosy.vercel.app/"
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -89,6 +89,7 @@ function Projects() {
              demoLink="https://check-list-lime-pi.vercel.app/"      
             />
           </Col>
+          
         </Row>
       </Container>
     </Container>
