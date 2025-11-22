@@ -93,7 +93,7 @@ function NavBar() {
           {/* بلاگ */}
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://my-portfolio-aida-rezaei.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
