@@ -20,7 +20,7 @@ function Home() {
             {/* ستون متن سمت راست */}
             <Col md={7} className="home-header" style={{ textAlign: "center" }}>
               {/* عنوان خوش آمدید */}
-              <h1 style={{ paddingBottom:15}} className="heading">
+              <h1 style={{ paddingBottom:15 }} className="heading">
                 خوش آمدید{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
@@ -28,11 +28,12 @@ function Home() {
               </h1>
 
               {/* نام و معرفی شما */}
-              <h1 className="heading-name">
-                من
-                <strong className="main-name"> آیدا رضائی </strong>
-                هستم
-              </h1>
+             <h1 className="heading-name" style={{ fontSize: "1px" }}>
+                   من
+                   <strong className="main-name" style={{ fontSize: "30px" }}> آیدا رضائی </strong>
+                   هستم
+             </h1>
+
 
               {/* تایپ متحرک یا توضیحات اضافی */}
               <div style={{ paddingLeft: 90,paddingBlock:50, textAlign: "left" }}>
