@@ -97,7 +97,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> پورتفولیو بیشتر
+                <ImBlog style={{ marginBottom: "2px" }} /> پورتفولیو
               </Nav.Link>
             </Nav.Item>
 
