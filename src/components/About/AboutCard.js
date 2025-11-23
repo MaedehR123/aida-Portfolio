@@ -14,7 +14,7 @@ function AboutCard() {
           <p style={{ textAlign: "center" }}>
             {/* معرفی با نام و محل زندگی */}
             سلام به همه! من <span className="purple">آیدا رضائی </span>
-             <span className="purple">  </span> هستم.
+             <span className="purple">  </span> هستم
             <br />
             {/* توضیح موقعیت شغلی */}
             در حال حاضر به‌عنوان توسعه‌دهنده وب و طراح UI/UX فعالیت می‌کنم.
