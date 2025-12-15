@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import sign from "../../Assets/Projects/sign_up_2.webp";
 import slider from "../../Assets/Projects/accordion slider.webp";
 import timerPomodoro from "../../Assets/Projects/timerPomodoro.webp";
-import meno from "../../Assets/Projects/meno.webp";
+import login from "../../Assets/Projects/login-register.webp";
 import BMIBody from "../../Assets/Projects/BMIBody.webp";
 import TravelList from "../../Assets/Projects/TravelList.webp";
 
@@ -24,11 +24,11 @@ function Projects() {
 
            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={meno}
+              imgPath={login}
               isBlog={false}
               title="نمونه هاور جذاب و بسیار حرفه ای برای ایتم ها"
               description="استایل و هاور جذاب برای منو و ایتم های سایتتون و برای قیمت گذاری محصولات تون هم میشه اضافه کرد"
-              demoLink="https://hover-lac-alpha.vercel.app/"              
+              demoLink="https://login-registe.vercel.app/"              
             />
           </Col>
 
